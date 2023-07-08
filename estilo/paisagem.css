@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+main {
+    min-width: 600px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#imgprincipal {
+    margin-top: 80px;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+}
+
+#login {
+    display: inline-block;
+    position: relative;
+    top: -170px;
+    left: 200px;
+}
+
+#cad {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    left: -95px;
+}
+
+#container {
+    display: inline-block;
+}

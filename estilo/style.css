@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+  :root {
+    --fontespecial:'Dancing Script', cursive;
+    --corinsta: #2497f6;
+  }
+
+* {
+    margin: 0px;
+}
+
+#login h1 {
+    padding: 20px;
+    font-family: var(--fontespecial);
+    font-size: 3em;
+}
+
+.caixatxt {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgba(0, 0, 0, 0.062);
+    border-radius: 5px;
+}
+
+.btentrar {
+    width: 310px;   
+    height: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: var(--corinsta);
+    color: white;
+    border: none;
+    display: inline-block;
+}
+
+a {
+   text-decoration: none;
+}
+
+.linkface {
+    color: blue;
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.linkinsta {
+    color: var(--corinsta);
+}
+
+.esqsenha {
+    color: rgb(25, 25, 25);
+    font-size: 13px;
+}
+
+#login {
+    text-align: center;
+    margin-bottom: 10px;
+    border-color: rgba(0, 0, 0, 0.074);
+}
+
+#cad {
+    text-align: center;
+    border-color: rgba(0, 0, 0, 0.074);
+}
+
+aside {
+    text-align: center;
+}
+
+.linkdbaixo {
+    color: rgba(0, 0, 0, 0.671);
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.linkdbaixo:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.671);
+    padding-right: 10px;
+    font-size: 13px;
+}
